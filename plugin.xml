@@ -57,8 +57,8 @@
     </array>
     </config-file>
 
-    <header-file src="src/ios/cordova-file-share.h" />
-    <source-file src="src/ios/cordova-file-share.m" /> 
+    <header-file src="src/ios/CordovaFileShare.h" />
+    <source-file src="src/ios/CordovaFileShare.m" /> 
 
   </platform>
 </plugin>
