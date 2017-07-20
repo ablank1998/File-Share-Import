@@ -49,5 +49,9 @@
       </dict>
     </array>
     </config-file>
+
+    <header-file src="src/ios/cordova-file-share.h" />
+    <source-file src="src/ios/cordova-file-share.m" /> 
+
   </platform>
 </plugin>
