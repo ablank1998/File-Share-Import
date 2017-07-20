@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-customurlscheme"
+        version="4.2.0">
+
+  <name>File Share from other App</name>
+
+  <description>
+	File Share from other App into Cordova App
+  </description>
+
+  <author>Alexander Blank, David Silva Ribeaux</author>
+
+  <license>MIT</license>
+
+  <keywords>File share, Import</keywords>
+
+  <repo>https://github.com/ablank1998/File-Share-Import.git</repo>
+
+  <issue>https://github.com/ablank1998/File-Share-Import/issues</issue>
+
+  <preference name="FILE_TYPE" />
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0"/>
+  </engines>
+
+  <!-- ios -->
+  <platform name="ios">
+    <js-module src="www/ios/LaunchMyApp.js" name="LaunchMyApp">
+      <clobbers target="window.plugins.launchmyapp" />
+    </js-module>
+
+    <config-file target="*-Info.plist" parent="UIFileSharingEnabled">
+     <true/>
+    </config>		
+    <config-file target="*-Info.plist" parent="CFBundleDocumentTypes">
+    <array>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>PDF Document</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.adobe.pdf</string>
+        </array>
+      </dict>
+    </array>
+    </config-file>
+  </platform>

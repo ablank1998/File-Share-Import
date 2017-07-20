@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-customurlscheme",
+  "version": "0.1.0",
+  "description": "File share from other app into Cordova App"
+  "cordova": {
+    "id": "cordova-fileshare-import",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddyVerbruggen/Custom-URL-scheme.git"
+  },
+  "keywords": [
+    "File Share",
+    "ecosystem:cordova",
+    "cordova-ios",
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Alexander Blank, David Silva Ribeaux"
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
