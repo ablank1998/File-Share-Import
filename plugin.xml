@@ -20,8 +20,6 @@
 
   <issue>https://github.com/ablank1998/File-Share-Import/issues</issue>
 
-  <preference name="FILE_TYPE" />
-
   <engines>
     <engine name="cordova" version=">=3.0.0"/>
   </engines>
