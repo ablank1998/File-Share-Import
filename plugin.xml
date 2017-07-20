@@ -45,14 +45,24 @@
     <array>
       <dict>
         <key>CFBundleTypeName</key>
-        <string>PDF Document</string>
+        <string>${PRODUCT_NAME}</string>
         <key>LSHandlerRank</key>
         <string>Alternate</string>
         <key>CFBundleTypeRole</key>
         <string>Viewer</string>
         <key>LSItemContentTypes</key>
         <array>
+          <string>public.data</string>
+          <string>public.text</string>
+          <string>public.image</string>
+          <string>public.audio</string>
+          <string>public.audiovisual-content</string>
+          <string>public.xml</string>
+          <string>public.movie</string>
+          <string>public.font</string>
+          <string>com.adobe.postscript</string>
           <string>com.adobe.pdf</string>
+          <string>org.gnu.gnu-zip-archve</string>
         </array>
       </dict>
     </array>
