@@ -5,9 +5,9 @@
 //
 //
 
-#import "cordova-file-share.h"
+#import "CordovaFileShare.h"
 
-@implementation cordovaFileShare
+@implementation CordovaFileShare
 
 
 - (void)pluginInitialize

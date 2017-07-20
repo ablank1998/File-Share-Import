@@ -26,6 +26,13 @@
 
   <!-- ios -->
   <platform name="ios">
+
+    <config-file target="config.xml" parent="/*">
+         <feature name="CordovaFileShare">
+               <param name="ios-package" value="CordovaFileShare"/>
+         </feature>
+    </config-file>
+
     <js-module src="www/ios/LaunchMyApp.js" name="LaunchMyApp">
       <clobbers target="window.plugins.launchmyapp" />
     </js-module>
