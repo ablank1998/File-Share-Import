@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-customurlscheme",
+  "name": "cordova-file-share",
   "version": "0.1.0",
   "description": "File share from other app into Cordova App",
   "cordova": {
