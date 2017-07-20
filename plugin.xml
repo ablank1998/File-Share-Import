@@ -34,7 +34,7 @@
 
     <config-file target="*-Info.plist" parent="UIFileSharingEnabled">
      <true/>
-    </config>		
+    </config-file>		
     <config-file target="*-Info.plist" parent="CFBundleDocumentTypes">
     <array>
       <dict>
@@ -52,3 +52,4 @@
     </array>
     </config-file>
   </platform>
+</plugin>
