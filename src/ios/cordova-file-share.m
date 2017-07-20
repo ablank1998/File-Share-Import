@@ -6,9 +6,8 @@
 //
 
 #import "cordova-file-share.h"
-#import <Cordova/CDV.h>
 
-@implementation cordova-file-share
+@implementation cordovaFileShare
 
 
 - (void)pluginInitialize
@@ -48,7 +47,7 @@
 
     __weak __typeof(self) weakSelf = self;
     
-    dispatch_block_t handleOpenUrl = ^(void) {
+    dispatch_block_t fileShareOpenUrl = ^(void) {
         // calls into javascript global function 'handleOpenURL'
         NSString* jsString = [NSString stringWithFormat:@"document.addEventListener('deviceready',function(){if (typeof fileShareOpenURL === 'function') { fileShareOpenURL(\"%@\");}});", url.absoluteString];
         

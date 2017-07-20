@@ -6,9 +6,9 @@
 //
 //
 
-#import <Cordova/CDVPlugin.h>
+#import <Cordova/CDV.h>
 
-@interface cordova-file-share : CDVPlugin
+@interface cordovaFileShare : CDVPlugin
 
 @property (nonatomic, strong) NSURL* url;
 @property (nonatomic, assign) BOOL pageLoaded;
