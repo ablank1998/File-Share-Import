@@ -29,7 +29,8 @@
 
     <config-file target="config.xml" parent="/*">
          <feature name="CordovaFileShare">
-               <param name="ios-package" value="CordovaFileShare" onLoad="true"/>
+               <param name="ios-package" value="CordovaFileShare" />
+               <param name="onload" value="true" />
          </feature>
     </config-file>
 
